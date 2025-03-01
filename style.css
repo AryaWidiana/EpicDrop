@@ -1,0 +1,858 @@
+.landing-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .landing-page .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1920px;
+    height: 2506px;
+  }
+  
+  .landing-page .overlap {
+    position: relative;
+    width: 1927px;
+    height: 2506px;
+    left: -5px;
+  }
+  
+  .landing-page .main-background {
+    position: absolute;
+    width: 1920px;
+    height: 1496px;
+    top: 1010px;
+    left: 5px;
+    background-image: url(./img/bg-cloud.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .landing-page .rectangle {
+    height: 1496px;
+    background-color: #9edbf980;
+  }
+  
+  .landing-page .background {
+    position: absolute;
+    width: 1920px;
+    height: 1010px;
+    top: 0;
+    left: 5px;
+    background-image: url(./img/anime-style-clouds-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .div {
+    height: 1010px;
+    background-color: #9edbf980;
+  }
+  
+  .landing-page .maskot {
+    position: absolute;
+    width: 1000px;
+    height: 655px;
+    top: 473px;
+    left: 465px;
+  }
+  
+  .landing-page .overlap-group-wrapper {
+    position: relative;
+    width: 1272px;
+    height: 655px;
+    left: -70px;
+  }
+  
+  .landing-page .overlap-group {
+    position: relative;
+    height: 655px;
+  }
+  
+  .landing-page .minecraft {
+    position: absolute;
+    width: 376px;
+    height: 463px;
+    top: 96px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .landing-page .free-fire {
+    position: absolute;
+    width: 652px;
+    height: 652px;
+    top: 0;
+    left: 99px;
+    object-fit: cover;
+  }
+  
+  .landing-page .fortnite {
+    position: absolute;
+    width: 590px;
+    height: 590px;
+    top: 63px;
+    left: 682px;
+    object-fit: cover;
+  }
+  
+  .landing-page .genshin {
+    position: absolute;
+    width: 610px;
+    height: 610px;
+    top: 22px;
+    left: 490px;
+    object-fit: cover;
+  }
+  
+  .landing-page .valorant {
+    position: absolute;
+    width: 655px;
+    height: 655px;
+    top: 0;
+    left: 264px;
+    object-fit: cover;
+  }
+  
+  .landing-page .hero {
+    position: absolute;
+    width: 1168px;
+    height: 275px;
+    top: 188px;
+    left: 383px;
+  }
+  
+  .landing-page .beli-jual-item-game {
+    position: absolute;
+    width: 1164px;
+    top: 25px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 80px;
+  }
+  
+  .landing-page .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 423px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--variable-collection-purple-50);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .selengkapnya {
+    position: absolute;
+    width: 273px;
+    height: 66px;
+    top: 209px;
+    left: 447px;
+  }
+  
+  .landing-page .overlap-group-2 {
+    position: relative;
+    width: 271px;
+    height: 66px;
+    background-color: #ffffff1a;
+    border-radius: 20px;
+    backdrop-filter: blur(24px) brightness(100%);
+    -webkit-backdrop-filter: blur(24px) brightness(100%);
+  }
+  
+  .landing-page .text-wrapper-2 {
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 25px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .vector {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    top: 25px;
+    left: 211px;
+  }
+  
+  .landing-page .top-bar {
+    position: absolute;
+    width: 1920px;
+    height: 118px;
+    top: 0;
+    left: 5px;
+  }
+  
+  .landing-page .overlap-2 {
+    position: relative;
+    height: 132px;
+    background-image: url(./img/rectangle-154.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .logo {
+    position: absolute;
+    width: 207px;
+    height: 88px;
+    top: 11px;
+    left: 28px;
+  }
+  
+  .landing-page .img {
+    position: absolute;
+    width: 79px;
+    height: 88px;
+    top: 0;
+    left: 0;
+  }
+  
+  .landing-page .epic-drop {
+    position: absolute;
+    width: 130px;
+    height: 26px;
+    top: 31px;
+    left: 79px;
+  }
+  
+  .landing-page .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 0.5px transparent;
+    background-image: linear-gradient(
+      180deg,
+      rgb(13, 166, 242) 0%,
+      rgb(235, 158, 250) 64.5%,
+      rgb(242, 208, 13) 100%
+    );
+    -webkit-background-clip: text !important;
+    background: linear-gradient(
+      180deg,
+      rgb(13, 166, 242) 0%,
+      rgb(235, 158, 250) 64.5%,
+      rgb(242, 208, 13) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: "Uncial Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 1.00px;
+    line-height: normal;
+  }
+  
+  .landing-page .daftar {
+    position: absolute;
+    width: 105px;
+    height: 54px;
+    top: 28px;
+    left: 1647px;
+  }
+  
+  .landing-page .div-wrapper {
+    position: relative;
+    width: 103px;
+    height: 54px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #7f7f7f;
+  }
+  
+  .landing-page .text-wrapper-4 {
+    position: absolute;
+    top: 14px;
+    left: 21px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #7f7f7f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .masuk {
+    position: absolute;
+    width: 105px;
+    height: 54px;
+    top: 28px;
+    left: 1771px;
+  }
+  
+  .landing-page .overlap-3 {
+    position: relative;
+    width: 103px;
+    height: 54px;
+    background-color: var(--variable-collection-blue-50);
+    border-radius: 10px;
+  }
+  
+  .landing-page .text-wrapper-5 {
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .beranda {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 760px;
+  }
+  
+  .landing-page .text-wrapper-6 {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .populer {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 900px;
+  }
+  
+  .landing-page .text-wrapper-7 {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .berita {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 1040px;
+  }
+  
+  .landing-page .text-wrapper-8 {
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .promo {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 1180px;
+  }
+  
+  .landing-page .text-wrapper-9 {
+    position: absolute;
+    top: 16px;
+    left: 29px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .kontak {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 1460px;
+  }
+  
+  .landing-page .text-wrapper-10 {
+    position: absolute;
+    top: 16px;
+    left: 27px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .bantuan {
+    position: absolute;
+    width: 121px;
+    height: 54px;
+    top: 28px;
+    left: 1320px;
+  }
+  
+  .landing-page .bottom-logo {
+    position: absolute;
+    width: 148px;
+    height: 145px;
+    top: 910px;
+    left: 891px;
+  }
+  
+  .landing-page .game-populer {
+    position: absolute;
+    width: 1402px;
+    height: 651px;
+    top: 1620px;
+    left: 265px;
+  }
+  
+  .landing-page .mobile-legend {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .landing-page .PUBG {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 235px;
+    object-fit: cover;
+  }
+  
+  .landing-page .valorant-2 {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 470px;
+    object-fit: cover;
+  }
+  
+  .landing-page .honor-of-kings {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 705px;
+    object-fit: cover;
+  }
+  
+  .landing-page .free-fire-2 {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 940px;
+    object-fit: cover;
+  }
+  
+  .landing-page .genshin-impact {
+    position: absolute;
+    width: 225px;
+    height: 554px;
+    top: 98px;
+    left: 1175px;
+  }
+  
+  .landing-page .lihat-semua {
+    position: absolute;
+    width: 167px;
+    height: 60px;
+    top: 0;
+    left: 1235px;
+  }
+  
+  .landing-page .overlap-group-3 {
+    position: relative;
+    width: 165px;
+    height: 60px;
+    background-color: #ffffff1a;
+    border-radius: 20px;
+    backdrop-filter: blur(24px) brightness(100%);
+    -webkit-backdrop-filter: blur(24px) brightness(100%);
+  }
+  
+  .landing-page .text-wrapper-11 {
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 25px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .text-wrapper-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .statistik {
+    position: absolute;
+    width: 1927px;
+    height: 436px;
+    top: 982px;
+    left: 0;
+  }
+  
+  .landing-page .overlap-4 {
+    position: relative;
+    width: 1920px;
+    height: 448px;
+    left: 5px;
+    background-image: url(./img/bg-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .pengguna-aktif {
+    position: absolute;
+    width: 265px;
+    height: 129px;
+    top: 176px;
+    left: 198px;
+    background-image: url(./img/vector-11.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group {
+    width: 191px;
+    left: 39px;
+    position: relative;
+    height: 70px;
+    top: 30px;
+  }
+  
+  .landing-page .text-wrapper-13 {
+    left: 21px;
+    position: absolute;
+    top: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .text-wrapper-14 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .seller-terpercaya {
+    position: absolute;
+    width: 265px;
+    height: 129px;
+    top: 176px;
+    left: 513px;
+    background-image: url(./img/vector-12.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group-2 {
+    width: 227px;
+    left: 21px;
+    position: relative;
+    height: 70px;
+    top: 30px;
+  }
+  
+  .landing-page .text-wrapper-15 {
+    left: 46px;
+    position: absolute;
+    top: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .item-game-dijual {
+    position: absolute;
+    width: 265px;
+    height: 129px;
+    top: 176px;
+    left: 828px;
+    background-image: url(./img/vector-8.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group-3 {
+    width: 216px;
+    left: 27px;
+    position: relative;
+    height: 70px;
+    top: 30px;
+  }
+  
+  .landing-page .text-wrapper-16 {
+    left: 40px;
+    position: absolute;
+    top: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .transaksi-sukses {
+    position: absolute;
+    width: 265px;
+    height: 129px;
+    top: 176px;
+    left: 1143px;
+    background-image: url(./img/vector-9.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group-4 {
+    width: 214px;
+    left: 28px;
+    position: relative;
+    height: 70px;
+    top: 30px;
+  }
+  
+  .landing-page .text-wrapper-17 {
+    left: 27px;
+    position: absolute;
+    top: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .pelanggan-puas {
+    position: absolute;
+    width: 265px;
+    height: 129px;
+    top: 176px;
+    left: 1458px;
+    background-image: url(./img/vector-10.svg);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .group-5 {
+    width: 203px;
+    left: 33px;
+    position: relative;
+    height: 70px;
+    top: 30px;
+  }
+  
+  .landing-page .text-wrapper-18 {
+    position: absolute;
+    top: 0;
+    left: 51px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+  
+  .landing-page .text-wrapper-19 {
+    position: absolute;
+    top: 76px;
+    left: 840px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+  /* Original CSS code */
+  
+  /* Add these new styles */
+  body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .landing-page {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .overlap-wrapper {
+    max-width: 100%;
+  }
+  
+  .overlap {
+    max-width: 100%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .selengkapnya {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .selengkapnya:hover {
+    transform: translateY(-5px);
+  }
+  
+  .top-bar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .top-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .top-bar a:hover {
+    color: var(--variable-collection-blue-50);
+  }
+  
+  .game-populer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .game-populer img {
+    transition: transform 0.3s ease;
+  }
+  
+  .game-populer img:hover {
+    transform: scale(1.05);
+  }
+  
+  .statistik {
+    text-align: center;
+  }
+  
+  .statistik .group,
+  .statistik .group-2,
+  .statistik .group-3,
+  .statistik .group-4,
+  .statistik .group-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .game-populer img {
+      width: 180px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .top-bar nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .game-populer img {
+      width: 150px;
+    }
+  
+    .statistik .overlap-4 {
+      flex-direction: column;
+    }
+  }
+  
