@@ -4,29 +4,34 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    position: relative;
+    align-items: center;
   }
   
   .landing-page .overlap-wrapper {
     background-color: #ffffff;
     overflow: hidden;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     height: 6237px;
   }
   
   .landing-page .overlap {
-    position: relative;
-    width: 1929px;
+    position: absolute;
+    width: 100%;
+    max-width: 1920px;
     height: 6237px;
     left: -5px;
   }
   
   .landing-page .footer-background {
     position: absolute;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     height: 3527px;
     top: 2710px;
     left: 5px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/bg-bottom.png);
+    background-image: url(img/Footer-Background.png);
     background-size: 100% 100%;
   }
   
@@ -38,12 +43,13 @@
   }
   
   .landing-page .main-background {
-    position: absolute;
-    width: 1920px;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
     height: 1496px;
     top: 1010px;
     left: 5px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/bg-cloud.png);
+    background-image: url(img/Main-Background.png);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -55,12 +61,13 @@
   
   .landing-page .background {
     position: absolute;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     height: 1010px;
     top: 0;
     left: 5px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/anime-style-clouds--1-.png);
-    background-size: 100% 100%;
+    background-image: url(img/anime-style-clouds.png);
+    background-size: auto;
   }
   
   .landing-page .div {
@@ -142,7 +149,7 @@
   }
   
   .landing-page .beli-jual-item-game {
-    position: absolute;
+    position: relative;
     width: 1164px;
     top: 25px;
     left: 0;
@@ -176,7 +183,7 @@
   }
   
   .landing-page .overlap-group-2 {
-    position: relative;
+    position: absolute;
     width: 271px;
     height: 66px;
     background-color: #ffffff1a;
@@ -217,12 +224,12 @@
   .landing-page .overlap-2 {
     position: relative;
     height: 132px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/rectangle-154.svg);
+    background-image: url(img/TopBackground.svg);
     background-size: 100% 100%;
   }
   
   .landing-page .logo {
-    position: absolute;
+    position: relative;
     width: 207px;
     height: 88px;
     top: 11px;
@@ -230,7 +237,7 @@
   }
   
   .landing-page .img {
-    position: absolute;
+    position: relative;
     width: 79px;
     height: 88px;
     top: 0;
@@ -246,7 +253,7 @@
   }
   
   .landing-page .text-wrapper-3 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     -webkit-text-stroke: 0.5px transparent;
@@ -265,7 +272,7 @@
     );
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     font-family: "Uncial Antiqua", Helvetica;
     font-weight: 400;
     color: transparent;
@@ -283,7 +290,7 @@
   }
   
   .landing-page .div-wrapper {
-    position: relative;
+    position: absolute;
     width: 103px;
     height: 54px;
     border-radius: 10px;
@@ -571,7 +578,7 @@
     position: relative;
     width: 1920px;
     height: 392px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/bg-2.png);
+    background-image: url(img/Grass.png);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -624,7 +631,7 @@
     width: 1920px;
     height: 448px;
     left: 5px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/bg-1.png);
+    background-image: url(img/bg-1.png);
     background-size: 100% 100%;
   }
   
@@ -634,7 +641,7 @@
     height: 129px;
     top: 176px;
     left: 198px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/vector-11.svg);
+    background-image: url(img/statistik-bg.png);
     background-size: 100% 100%;
   }
   
@@ -678,7 +685,7 @@
     height: 129px;
     top: 176px;
     left: 513px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/vector-10.svg);
+    background-image: url(img/statistik-bg.png);
     background-size: 100% 100%;
   }
   
@@ -709,7 +716,7 @@
     height: 129px;
     top: 176px;
     left: 828px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/vector-10.svg);
+    background-image: url(img/statistik-bg.png);
     background-size: 100% 100%;
   }
   
@@ -740,7 +747,7 @@
     height: 129px;
     top: 176px;
     left: 1143px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/vector-10.svg);
+    background-image: url(img/statistik-bg.png);
     background-size: 100% 100%;
   }
   
@@ -771,7 +778,7 @@
     height: 129px;
     top: 176px;
     left: 1458px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/vector-10.svg);
+    background-image: url(img/statistik-bg.png);
     background-size: 100% 100%;
   }
   
@@ -987,7 +994,7 @@
     width: 457px;
     height: 667px;
     top: -6px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/union.svg);
+    background-image: url(img/border-promo.svg);
     background-size: 100% 100%;
     position: relative;
     left: -10px;
@@ -1025,7 +1032,7 @@
     height: 667px;
     top: -6px;
     left: -10px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/union-1.svg);
+    background-image: url(img/border-promo.svg);
     background-size: 100% 100%;
   }
   
@@ -1052,7 +1059,7 @@
     height: 667px;
     top: -6px;
     left: -10px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/union-2.svg);
+    background-image: url(img/border-promo.svg);
     background-size: 100% 100%;
   }
   
@@ -1154,7 +1161,7 @@
     width: 1920px;
     height: 308px;
     top: 0;
-    left: 1px;
+    left: -5px;
   }
   
   .landing-page .rectangle-2 {
@@ -1178,7 +1185,7 @@
     position: relative;
     width: 296px;
     height: 311px;
-    background-image: url(https://c.animaapp.com/tDgRibCy/img/logo-2-1.svg);
+    background-image: url(img/footer-logo.svg);
     background-size: 100% 100%;
   }
   
@@ -1347,10 +1354,8 @@
   
   .landing-page .vector-7 {
     position: absolute;
-    width: 21px;
-    height: 38px;
-    top: 9px;
-    left: 13px;
+    width: 47px;
+    height: 47px;
   }
   
   .landing-page .twitter {
@@ -1365,10 +1370,8 @@
   
   .landing-page .vector-8 {
     position: absolute;
-    width: 28px;
-    height: 25px;
-    top: 11px;
-    left: 10px;
+    width: 45px;
+    height: 45px;
   }
   
   .landing-page .instagram {
@@ -1391,10 +1394,8 @@
   
   .landing-page .vector-9 {
     position: absolute;
-    width: 34px;
-    height: 24px;
-    top: 12px;
-    left: 7px;
+    width: 45px;
+    height: 45px;
   }
   
   .landing-page .tiktok {
@@ -1409,18 +1410,14 @@
   
   .landing-page .overlap-group-6 {
     position: relative;
-    width: 30px;
-    height: 34px;
-    top: 7px;
-    left: 9px;
+    width: 45px;
+    height: 45px;
   }
   
   .landing-page .vector-10 {
     position: absolute;
-    width: 26px;
-    height: 32px;
-    top: 2px;
-    left: 4px;
+    width: 45px;
+    height: 45px;
   }
   
   .landing-page .vector-11 {
@@ -1651,4 +1648,3 @@
     left: 0;
     object-fit: cover;
   }
-  
